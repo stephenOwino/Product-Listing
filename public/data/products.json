@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "title": "Laptop Pro",
+    "category": "Electronics",
+    "price": 999,
+    "description": "High-performance laptop for work and gaming.",
+    "image": "/Images/electronics-1.jpg"
+  },
+
+  {
+    "id": 2,
+    "title": "Smartphone X",
+    "category": "Electronics",
+    "price": 699,
+    "description": "Latest model with a stunning display.",
+    "image": "/Images/electronics-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Headphones Ultra",
+    "category": "Electronics",
+    "price": 59,
+    "description": "Noise-canceling headphones with great sound.",
+    "image": "/Images/electronics-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Smartwatch Fit",
+    "category": "Electronics",
+    "price": 199,
+    "description": "Fitness tracker with heart rate monitor.",
+    "image": "/Images/electronics-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Wireless Speaker",
+    "category": "Electronics",
+    "price": 129,
+    "description": "Portable speaker with rich sound.",
+    "image": "/Images/electronics-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Tablet Air",
+    "category": "Electronics",
+    "price": 499,
+    "description": "Lightweight tablet for productivity.",
+    "image": "/Images/electronics-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Gaming Console",
+    "category": "Electronics",
+    "price": 399,
+    "description": "Next-gen console for immersive gaming.",
+    "image": "/Images/electronics-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Bluetooth Earbuds",
+    "category": "Electronics",
+    "price": 89,
+    "description": "Compact earbuds with long battery life.",
+    "image": "/Images/electronics-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Monitor 4K",
+    "category": "Electronics",
+    "price": 299,
+    "description": "Ultra HD monitor for crisp visuals.",
+    "image": "/Images/electronics-9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Keyboard RGB",
+    "category": "Electronics",
+    "price": 79,
+    "description": "Mechanical keyboard with customizable lights.",
+    "image": "/Images/electronics-10.jpg"
+  },
+
+  {
+    "id": 11,
+    "title": "T-Shirt Classic",
+    "category": "Clothing",
+    "price": 29,
+    "description": "Comfortable cotton t-shirt in various colors.",
+    "image": "/Images/clothing-1.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Jeans Slim",
+    "category": "Clothing",
+    "price": 49,
+    "description": "Stylish denim jeans for everyday wear.",
+    "image": "/Images/clothing-2.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Jacket Winter",
+    "category": "Clothing",
+    "price": 89,
+    "description": "Warm and waterproof jacket for all seasons.",
+    "image": "/Images/clothing-3.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Hoodie Casual",
+    "category": "Clothing",
+    "price": 39,
+    "description": "Soft hoodie with a minimalist design.",
+    "image": "/Images/clothing-4.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Dress Summer",
+    "category": "Clothing",
+    "price": 59,
+    "description": "Light and breezy dress for warm days.",
+    "image": "/Images/clothing-5.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Sweater Cozy",
+    "category": "Clothing",
+    "price": 45,
+    "description": "Knit sweater for chilly evenings.",
+    "image": "/Images/clothing-6.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Shorts Cargo",
+    "category": "Clothing",
+    "price": 35,
+    "description": "Practical shorts with multiple pockets.",
+    "image": "/Images/clothing-7.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Shirt Formal",
+    "category": "Clothing",
+    "price": 55,
+    "description": "Crisp button-up shirt for professional settings.",
+    "image": "/Images/clothing-8.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Skirt Midi",
+    "category": "Clothing",
+    "price": 42,
+    "description": "Elegant midi skirt with a flowy fit.",
+    "image": "/Images/clothing-9.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Polo Sport",
+    "category": "Clothing",
+    "price": 33,
+    "description": "Breathable polo shirt for active wear.",
+    "image": "/Images/clothing-10.jpg"
+  },
+
+  {
+    "id": 21,
+    "title": "Sneakers Pro",
+    "category": "Footwear",
+    "price": 79,
+    "description": "Trendy sneakers with excellent cushioning.",
+    "image": "/Images/footwear-1.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Boots Hiking",
+    "category": "Footwear",
+    "price": 99,
+    "description": "Durable boots for outdoor adventures.",
+    "image": "/Images/footwear-2.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Sandals Beach",
+    "category": "Footwear",
+    "price": 25,
+    "description": "Lightweight sandals for summer outings.",
+    "image": "/Images/footwear-3.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Running Shoes",
+    "category": "Footwear",
+    "price": 85,
+    "description": "Performance shoes for runners.",
+    "image": "/Images/footwear-4.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Loafers Casual",
+    "category": "Footwear",
+    "price": 65,
+    "description": "Slip-on loafers for a relaxed look.",
+    "image": "/Images/footwear-5.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Heels Evening",
+    "category": "Footwear",
+    "price": 95,
+    "description": "Elegant heels for special occasions.",
+    "image": "/Images/footwear-6.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Flip Flops",
+    "category": "Footwear",
+    "price": 15,
+    "description": "Simple flip flops for casual wear.",
+    "image": "/Images/footwear-7.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Work Boots",
+    "category": "Footwear",
+    "price": 120,
+    "description": "Sturdy boots for tough jobs.",
+    "image": "/Images/footwear-8.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Slippers Cozy",
+    "category": "Footwear",
+    "price": 22,
+    "description": "Warm slippers for home comfort.",
+    "image": "/Images/footwear-9.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Athletic Trainers",
+    "category": "Footwear",
+    "price": 89,
+    "description": "Versatile trainers for sports and gym.",
+    "image": "/Images/footwear-10.jpg"
+  },
+
+  {
+    "id": 31,
+    "title": "Backpack Travel",
+    "category": "Accessories",
+    "price": 39,
+    "description": "Durable backpack with multiple compartments.",
+    "image": "/Images/accessories-1.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Sunglasses Aviator",
+    "category": "Accessories",
+    "price": 45,
+    "description": "Classic aviator sunglasses with UV protection.",
+    "image": "/Images/accessories-2.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Wallet Leather",
+    "category": "Accessories",
+    "price": 35,
+    "description": "Slim leather wallet with card slots.",
+    "image": "/Images/accessories-3.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Belt Casual",
+    "category": "Accessories",
+    "price": 25,
+    "description": "Versatile belt for everyday use.",
+    "image": "/Images/accessories-4.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Watch Analog",
+    "category": "Accessories",
+    "price": 149,
+    "description": "Stylish analog watch with leather strap.",
+    "image": "/Images/accessories-5.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Scarf Wool",
+    "category": "Accessories",
+    "price": 19,
+    "description": "Soft wool scarf for cold weather.",
+    "image": "/Images/accessories-6.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Hat Baseball",
+    "category": "Accessories",
+    "price": 22,
+    "description": "Adjustable baseball cap for sun protection.",
+    "image": "/Images/accessories-7.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Necklace Silver",
+    "category": "Accessories",
+    "price": 69,
+    "description": "Elegant silver necklace for all occasions.",
+    "image": "/Images/accessories-8.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Gloves Winter",
+    "category": "Accessories",
+    "price": 29,
+    "description": "Insulated gloves for warmth.",
+    "image": "/Images/accessories-9.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Tote Bag",
+    "category": "Accessories",
+    "price": 49,
+    "description": "Spacious tote bag for shopping or travel.",
+    "image": "/Images/accessories-10.jpg"
+  }
+]
