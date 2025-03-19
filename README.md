@@ -4,66 +4,76 @@ A responsive product listing page built for the Frontend Developer Internship As
 
 ## Features
 
-- Responsive product grid with images, titles, prices, and descriptions.
-- Category filter dropdown.
-- Search bar for filtering products by name.
-- Dark mode toggle.
-- Type-safe with TypeScript.
-- Modular and reusable components.
+- Responsive product grid with 40 items (10 per category: Electronics, Clothing, Footwear, Accessories).
+- Category filter dropdown, search bar, dark mode toggle, fixed header.
+- Bonus: Client-side caching with SWR, animations with Framer Motion, wishlist feature.
+- Bonus: Dockerized application and CI/CD pipeline with GitHub Actions.
 
 ## Setup Instructions
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd ecommerce-listing
+
+
    ```
 
-INSTALL DEPENDENCIES
-npm install
+   INSTALL DEPENDENCIES
+   npm install
 
-RUN THE DEVELOPMENT SERVER
+RUN LOCALY
 npm run dev
 
+BUILD AND RUN LOCALLY
+docker build -t ecommerce-listing .
+
+RUN CONTAINER
+docker run -p 3000:3000 ecommerce-listing
+
+CI/CD Pipeline
+On push/pull request to main:
+Builds and tests the app.
+Deploys Docker image to Docker Hub (if secrets configured).
 Technologies
 Next.js (App Router)
 Tailwind CSS
 TypeScript
+SWR, Framer Motion
+Docker
+GitHub Actions
 
 ---
 
-### Step 4: Run and Test
+### Changes Made
 
-1. Ensure images are in `public/images/`.
-2. Run `npm run dev`.
-3. Visit `http://localhost:3000`:
-   - Products display in a responsive grid.
-   - Search filters by title (e.g., "Laptop").
-   - Category filter works (e.g., "Electronics").
-   - Dark mode toggles the background from `bg-gray-100` to `dark:bg-gray-900`.
+1. **Removed Specific Username**:
 
----
+   - Replaced `otizaaa/ecommerce-listing:latest` with `<your-username>/ecommerce-listing:latest`.
+   - Updated the note to say “Replace `<your-username>` with the Docker Hub username of the repository owner” instead of mentioning `otizaaa`.
 
-### Meeting Requirements
+2. **No Password Mention**:
 
-1. **Project Setup**: Next.js with TypeScript and Tailwind CSS, clean structure.
-2. **Product Listing**: Grid layout with image, title, price, description from JSON.
-3. **Interactivity**: Category filter, search bar, dark mode toggle.
-4. **UI/UX**: Modern design with Tailwind, responsive, consistent typography/spacing.
-5. **Code Quality**: TypeScript types, modular `ProductCard`, Next.js best practices.
+   - The `README.md` never included your password (e.g., `Steve@123`), and this version continues that. Passwords are only relevant for `docker login` (local) or GitHub Secrets (CI/CD), which are handled separately and securely.
+
+3. **Generic and Reusable**:
+   - Now anyone can follow these instructions without needing your specific Docker Hub details. They can build locally or ask you for your username if they want to pull your image.
 
 ---
 
-### Submission
+### Steps to Apply This
 
-1. Initialize Git:
+1. **Edit `README.md`**:
+
+   - Open `README.md` in your project directory (`~/Desktop/TOUCH AND YOU ARE DEAD/product-listing`).
+   - Replace its content with the above markdown or update the `Docker Setup` section with the new text.
+
+2. **Commit and Push**:
    ```bash
-   git init
-   git add .
-   git commit -m "Completed eCommerce listing assignment"
+   git add README.md
+   git commit -m "Update README with generic Docker instructions"
+   git push origin main
+
+
    ```
-
-## Docker Hub
-
-- Image: `your-username/ecommerce-listing:latest`
-- Run: `docker run -p 3000:3000 your-username/ecommerce-listing:latest`
