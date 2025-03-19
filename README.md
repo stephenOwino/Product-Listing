@@ -62,3 +62,8 @@ TypeScript
    git add .
    git commit -m "Completed eCommerce listing assignment"
    ```
+
+## Docker Hub
+
+- Image: `your-username/ecommerce-listing:latest`
+- Run: `docker run -p 3000:3000 your-username/ecommerce-listing:latest`
